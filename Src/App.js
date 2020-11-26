@@ -5,6 +5,12 @@ import './App.css';
 import backgroundImg from './assets/image.jpg'
 
 import Header from './Components/Header';
+import UseState from './Components/UseState';
+import UseContext from './Components/UseContext';
+import UseReducer from './Components/UseReducer';
+import UseCallback from './Components/UseCallback';
+import UseMemo from './Components/UseMemo';
+import UseRef from './Components/UseRef';
 
 const INITIAL_VALUE_ARRAY_RESPONSE = 0;
 const END_VALUE_ARRAY_RESPONSE     = 20;
@@ -42,6 +48,13 @@ function App() {
 
   return (
     <>
+      {/* <UseState /> */}
+      {/* <UseContext /> */}
+      {/* <UseReducer /> */}
+      {/* <UseCallback /> */}
+      {/* <UseMemo /> */}
+      <UseRef />
+
       <Header title="Projects" />
 
       <img width={500} src={backgroundImg} />
