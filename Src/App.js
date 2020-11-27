@@ -11,6 +11,8 @@ import UseReducer from './Components/UseReducer';
 import UseCallback from './Components/UseCallback';
 import UseMemo from './Components/UseMemo';
 import UseRef from './Components/UseRef';
+import UseRef2 from './Components/UseRef2';
+import UseImperativeHandler from './Components/UseImperativeHandler';
 
 const INITIAL_VALUE_ARRAY_RESPONSE = 0;
 const END_VALUE_ARRAY_RESPONSE     = 20;
@@ -53,7 +55,9 @@ function App() {
       {/* <UseReducer /> */}
       {/* <UseCallback /> */}
       {/* <UseMemo /> */}
-      <UseRef />
+      {/* <UseRef /> */}
+      {/* <UseRef2 /> */}
+      <UseImperativeHandler />
 
       <Header title="Projects" />
 

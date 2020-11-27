@@ -2,9 +2,7 @@ import React, { useRef } from 'react';
 
 import '../Hooks.css';
 
-export default function UseRef() { 
-  console.log('rendered')
-
+export default function UseRef() {
   const number = useRef(0)
 
   function handleSetValue() {

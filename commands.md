@@ -53,3 +53,16 @@ function (initialValue) { // funcao que pega o valor inicial e seta...
 return { name: initialValue }
 }
 );
+
+/** PROCESSO DE REENDERIZAÇÃO DE UM COMPONENT NO REACT **/
+TRIGGERS (FAZEM O COMPONENT ENTRAR NO PROCESSO DE REENDERIZAÇÃO)
+-> PRIMEIRO RENDER;
+-> ALTERAÇÃO DE STATE OU
+-> ALTERAÇÃO DE PROPRIEDADE
+DEPOIS DISSO O REACT _COMPUTA_ AS ALTERAÇÕES
+
+useLayoutEffect -> sincrona // o react espera o useLayoutEffect executar para ir pro próximo passo.
+
+DEPOIS ELE EXIBE AS ALTERAÇÕES PARA O USUÁRIO
+
+useEffect -> assincrona
